@@ -1,0 +1,13 @@
+GET http://localhost:8080/hello
+###
+
+GET http://localhost:8080/actuator/loggers/santannaf.demojpa.demolevellogs
+###
+
+POST http://localhost:8080/actuator/loggers/santannaf.demojpa.demolevellogs
+Content-Type: application/json
+
+{
+  "configuredLevel": "debug"
+}
+###
